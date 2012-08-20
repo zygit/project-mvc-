@@ -1,0 +1,9 @@
+
+$(function(){
+	$(".writer").click(function(){
+		$.blockUI({ message: $(".loginbody")});
+		$('.blockOverlay').attr('title','单击关闭').click($.unblockUI); 	
+		$('.close').click($.unblockU:wI);    
+	});
+
+});

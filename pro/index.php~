@@ -1,0 +1,109 @@
+
+<?php require("application/view/header.php"); ?>
+		
+	<!-------content-------------->
+	<div class="content" >
+	<iframe  class="left" src="public/html/index_left_nav.html" ></iframe>
+	<div class="right" style="width: 592px" align="center">
+		<div class="text">
+            <span style="font-size: 24pt; color: #003399; font-family: 黑体">
+                <span style="color: #006699">
+                    <br />
+                    欢迎来到大连工业大学网络学刊&nbsp;</span></span><p>
+                        大连工业大学网络学刊隶属于大连工业大学研究生院。</p>
+			<p>
+				......</p>
+				<p>
+				......</p>
+				
+			<p>
+                欢迎各位来到大连工业大学网络学刊！</p>
+		</div>
+		<div class="list">
+            <span style="font-size: 24pt; color: #006699; font-family: 黑体">
+                <br />
+                过刊浏览</span><ul>
+				
+						
+                <li><a href="index.html">
+							...... </a></li>
+					
+						<li><a href="index.html">
+							......</a></li>
+					
+						<li><a href="index.html">
+							......</a></li>
+					
+						<li><a href="index.html">
+							......</a></li>
+					
+			</ul>
+			<div class="more">
+				<a href="index.html">浏览更多</a>
+			</div>
+			<div class="clear">
+			</div>
+		<!---- list ---->
+	</div>	
+	</div>
+	</div>
+	<!------ display login layer by jquery ------->
+	<div class="blockUI"> </div>
+	<div class="blockUI blockOverlay" title="单击关闭"> </div>
+	<div class="blockUI loginbody" title="单击关闭">
+	<form class="loginform" action="#" method="post">
+		<table  style="table-layout:fixed;">	
+			<tr >
+			<td ></td>
+			<td ></td>
+			<td >
+			</td>
+			</tr>
+		<tr>
+		<td colspan=3 >
+			<table width=100% >
+			<tr height=35px>
+			<td> 网络学刊登录</td>
+			</tr>
+			</table>
+		</tr>
+		<td>
+		<tr height=35px>
+			<td class="need" style="width:15px;"></td>
+			<td style="width:60px; font-size:13px">用户名：</td>
+			<td style="width:180px;">
+				<input type="text" value="" name="username" class="inputxt Validform_error" />
+			</td>
+		</tr>
+		<tr>
+			<td class="need"></td>
+			<td  style="font-size:13px;">密码：</td>
+			<td><input type="password" value="" name="password" class="inputxt Validform_error" /></td>
+		</tr>
+		<tr >
+			<td class="need"></td>
+			<td  style="font-size:13px;">验证码：</td>
+			<td >
+			<table width=100%>
+			<tr><td style="width:70px;">
+				<input type="text" value="" name="code"  class="inputverify Validform_error" />			
+			</td>
+			<td class="authcodegra">
+				<img src="application/common/AuthCode.class.php" alt="看不清楚？" onclick = "this.src='AuthCode.class.php?'"  />
+			</td>
+			</table>		
+			</td>
+		</tr>
+	   <tr>
+			<td class="need"></td>
+			<td></td>
+			<td colspan="2" style="padding:4px 50px 18px 0;">
+				<input type="submit" value="登 录" /> &nbsp &nbsp &nbsp
+				<a href="#" > 忘记密码 </a>
+			</td>
+		</tr>
+		</table>
+	</form>	
+	</div>
+	
+<? require("application/view/footer.php");?>
